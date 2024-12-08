@@ -5,7 +5,7 @@ import Input from './Input'
 export default function Price(props) {
   return (
     <div className='section' >
-    <p className='heading' >Category</p>
+    <p className='heading' >Price</p>
     <label className='each-opt' >
         <input type='radio' name='test' value="" onChange={props.handleChange} />
         <span className='checkmark' ></span>All
